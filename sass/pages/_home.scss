@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
 
+.container {
+    background: linear-gradient(to bottom, #A3D8FF, #FDFFC2, #EB7B9D);
+}
+
 .name {
     font-family: "Lexend Giga", sans-serif;
     font-weight: 600;
@@ -17,7 +21,7 @@
     align-items: center;
 }
 
-.barre {
+.barre-name {
     width: 98%;
     height: 7px;
     background-color: #FF004D;
@@ -38,6 +42,7 @@
     width: 30%;
     height: 50%;
     border-radius: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
     margin-left: 150px;
 
