@@ -97,7 +97,7 @@ body {
 }
 
 
-// CONTAINER 
+// CONTAINER STACK
 
 .barre-stack {
     width: 95%;
@@ -111,7 +111,7 @@ body {
     font-weight: 600;
     font-size: 2rem;
 
-    color: #413F3E;
+    color: #27005D;
 
     margin: 30px 0 20px 40px;
 
@@ -232,4 +232,53 @@ body {
 
 
     margin-top: 20px;
+}
+
+// CONTAINER PROJECT
+
+.barre-project {
+    width: 95%;
+    height: 7px;
+    background-color: #94FFD8;
+
+    margin: 20px 0 50px 0;
+}
+
+.container-ocoffee,
+.container-unipedia,
+.container-todolist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.container-unipedia {
+    flex-direction: row-reverse;
+}
+
+.title-project {
+    margin: 5rem;
+
+    font-size: 3rem;
+    color: #27005D;
+}
+
+.project-image {
+    width: 60%;
+}
+
+.container-projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../assets/nuage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-size: 30rem;
+
+    width: 90rem;
+    height: 15rem;
 }
