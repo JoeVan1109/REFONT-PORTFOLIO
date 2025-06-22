@@ -1,0 +1,32 @@
+.link {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 2px solid #FF004D;
+    border-radius: 15px;
+
+    margin: 0 4rem 0 7rem;
+    padding: 4rem;
+}
+
+.link-rs {
+    width: 4rem;
+    height: 4rem;
+}
+
+.link-text {
+    font-family: "Lexend Giga", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    color: #FF004D;
+
+    text-align: center;
+
+    padding: 20px 20px;
+
+    transition: all 0.3s ease-in-out;
+}

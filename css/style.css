@@ -49,62 +49,6 @@ table {
   border-spacing: 0;
 }
 
-body {
-  background: linear-gradient(to bottom, #A3D8FF, #FDFFC2, #EB7B9D);
-}
-
-.name {
-  font-family: "Lexend Giga", sans-serif;
-  font-weight: 600;
-  font-size: 2.5rem;
-  color: #413F3E;
-  margin: 30px 0 20px 40px;
-}
-
-.container-barre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.barre-name {
-  width: 95%;
-  height: 7px;
-  background-color: #FF004D;
-  margin: 20px 0 50px 0;
-}
-
-.container-intro {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-
-.photo-profil {
-  width: 30%;
-  height: 50%;
-  border-radius: 200px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin-left: 150px;
-}
-
-.container-description {
-  width: auto;
-}
-
-.description {
-  width: 80%;
-  height: 50%;
-  text-align: center;
-  line-height: 2.5rem;
-  margin: 0 0 30px 150px;
-  font-family: "Lexend Giga", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  color: #413F3E;
-}
-
 .link {
   display: flex;
   justify-content: center;
@@ -129,6 +73,157 @@ body {
   text-align: center;
   padding: 20px 20px;
   transition: all 0.3s ease-in-out;
+}
+
+body {
+  background: linear-gradient(to bottom, #A3D8FF, #FDFFC2, #EB7B9D);
+  font-family: "Lexend Giga", sans-serif;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #413F3E;
+  margin: 30px 0 20px 40px;
+}
+
+.container-barre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barre-name {
+  width: 95%;
+  height: 7px;
+  background-color: #FF004D;
+  margin: 20px 0 50px 0;
+}
+
+.container-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.photo-profil {
+  width: 30%;
+  height: 50%;
+  border-radius: 200px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 150px;
+}
+
+.container-description {
+  width: auto;
+}
+
+.description {
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  line-height: 2.5rem;
+  margin: 0 0 30px 150px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #413F3E;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/nuage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 30rem;
+  width: 68rem;
+  height: 15rem;
+}
+
+.contact {
+  text-decoration: none;
+  color: #27005D;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.barre-stack {
+  width: 95%;
+  height: 7px;
+  background-color: #FF004D;
+  margin: 20px 0 50px 0;
+}
+
+.title-stack {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #413F3E;
+  margin: 30px 0 20px 40px;
+  text-align: center;
+}
+
+.container-stack {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+}
+
+.container-langages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-langages {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #413F3E;
+  margin: 30px 0 20px 40px;
+}
+
+.langage-icon {
+  width: 7rem;
+}
+
+.container-framework {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-framework {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #413F3E;
+  margin: 30px 0 20px 40px;
+}
+
+.framework-icon {
+  width: 7rem;
+}
+
+.container-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-more {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #413F3E;
+  margin: 30px 0 20px 40px;
+}
+
+.more-icon {
+  width: 7rem;
 }
 
 /*# sourceMappingURL=style.css.map */

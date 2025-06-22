@@ -2,10 +2,12 @@
 
 body {
     background: linear-gradient(to bottom, #A3D8FF, #FDFFC2, #EB7B9D);
+    font-family: "Lexend Giga", sans-serif;
 }
 
+// CONTAINER PREZ
+
 .name {
-    font-family: "Lexend Giga", sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
 
@@ -31,7 +33,7 @@ body {
 
 .container-intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
     width: 100%;
@@ -64,42 +66,122 @@ body {
     
     margin: 0 0 30px 150px;
 
-    font-family: "Lexend Giga", sans-serif;
+    
     font-weight: 400;
     font-size: 1.5rem;
 
     color: #413F3E;
 }
 
-.link {
-
+.container-contact {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-image: url('../../assets/nuage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 30rem;
+
+    width: 68rem;
+    height: 15rem;
+
+}
+
+.contact {
+    text-decoration: none;
+    color: #27005D;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+// CONTAINER 
+
+.barre-stack {
+    width: 95%;
+    height: 7px;
+    background-color: #FF004D;
+
+    margin: 20px 0 50px 0;
+}
+
+.title-stack {
+    font-weight: 600;
+    font-size: 2rem;
+
+    color: #413F3E;
+
+    margin: 30px 0 20px 40px;
+
+    text-align: center;
+}
+
+.container-stack {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+
+    width: 100%;
+}
+
+.container-langages {
+    display: flex;
     flex-direction: column;
-
-    border: 2px solid #FF004D;
-    border-radius: 15px;
-
-    margin: 0 4rem 0 7rem;
-    padding: 4rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.link-rs {
-    width: 4rem;
-    height: 4rem;
-}
-
-.link-text {
-    font-family: "Lexend Giga", sans-serif;
+.title-langages {
     font-weight: 600;
     font-size: 1.5rem;
 
-    color: #FF004D;
+    color: #413F3E;
 
-    text-align: center;
+    margin: 30px 0 20px 40px;
+}
 
-    padding: 20px 20px;
+.langage-icon {
+    width: 7rem;
+}
 
-    transition: all 0.3s ease-in-out;
+.container-framework {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-framework {
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    color: #413F3E;
+
+    margin: 30px 0 20px 40px;
+}
+
+.framework-icon {
+    width: 7rem;
+}
+
+.container-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-more {
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    color: #413F3E;
+
+    margin: 30px 0 20px 40px;
+}
+
+.more-icon {
+    width: 7rem;
 }
