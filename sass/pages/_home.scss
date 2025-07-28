@@ -107,13 +107,13 @@ body {
     margin: 20px 0 50px 0;
 }
 
-.title-stack {
+.subtitle {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 3rem;
 
     color: #27005D;
 
-    margin: 30px 0 20px 40px;
+    margin: 30px 0 30px 40px;
 
     text-align: center;
 }
@@ -246,10 +246,12 @@ body {
 
 .container-ocoffee,
 .container-unipedia,
-.container-todolist {
+.container-todolist,
+.container-teddytask {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 5rem;
 }
 
@@ -257,10 +259,14 @@ body {
     flex-direction: row-reverse;
 }
 
+.container-teddytask {
+    flex-direction: row-reverse;
+}
+
 .title-project {
     margin: 5rem;
 
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #27005D;
 }
 
@@ -268,17 +274,29 @@ body {
     width: 60%;
 }
 
-.container-projet {
+.container-project {
+    
+
+    margin-top: 6rem;
+}
+
+
+.container-link-project {
+    margin-top: 2rem;
+}
+.link-project {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #27005D;
+    font-weight: 700;
+    font-size: 1.3rem;
+    
+}
 
-    background-image: url('../../assets/nuage.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    background-size: 30rem;
-
-    width: 90rem;
-    height: 15rem;
+.icon-link-view-more {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.5rem;
 }
