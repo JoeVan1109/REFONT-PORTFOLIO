@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+
+body {
+    background: linear-gradient(to bottom,#EB7B9D, #A3D8FF, #FDFFC2, );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Lexend Giga", sans-serif;
+}
+
+.container-barre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barre-projects {
+    width: 95%;
+    height: 7px;
+    background-color: #94FFD8;
+
+    margin: 20px 0 50px 0;
+}
+
+.project-title {
+    margin: 5rem;
+
+    font-size: 2.5rem;
+    color: #27005D;
+}
+
+.container-gif-teddetask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image {
+    border-radius: 11px;
+    width: 80%;
+}
+
+.container-langages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* ✅ 2 colonnes */
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
